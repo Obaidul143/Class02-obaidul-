@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    
+
+    body{margin: 0;font-family: 'Montserrat', sans-serif;}
+    header{}
+
+    .announcement{background: #67c367;padding: 5px 15px;font-weight: 500;}
+
+   .announcement p{text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    letter-spacing: 4px;
+    text-align: center;}
+
+    .menu {
+    border-bottom: #67c367bf solid 2px;}
+
+    ol{
+    margin: -9px 70px;
+    text-align: end;
+    padding: 20px 0px;
+}
+   ol li{display: inline-block;}
+    
+    ol li a{
+    font-size: 15px;
+    color: #67c367;
+    text-decoration: none;
+    padding: 5px 30px;
+    display: block;
+    border-radius: 8px;
+    border:dashed 2px #67c36724;
+    transition-duration: 0.4s;}
+
+ol li a:hover{border-left: #f15c2236 dashed 0;
+        border-right: #f15c2236 dashed 0;
+        background-color: #67c367;
+        color: white;}
+
+.banner-section{padding: 50px 0;background-color: #67c36742;}
+
+.banner{width: 50%;
+        margin-left: auto;
+        margin-right: auto;}
+
+.banner img{
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 60px 0 #212020;
+    width: 100%;
+    transition: all 0.3s cubic-bezier(0.52, 0.56, 0.32, 0.46;}
+
+.banner img:hover{box-shadow: 0 0 0 0 #212020;}
+
+.content-section{padding: 170px 0px;}
+.content{width: 50%; margin: auto;}
+.content h1{font-size: 80px;margin: 0px;color: #67c367;}
+.content p{font-size: 22px;font-weight: 300;}
+h2{margin-left: auto;margin-right: auto;}
